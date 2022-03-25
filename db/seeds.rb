@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Article.destroy_all
+
+Article.create!(
+  title: "Le wagon",
+  content: "Change de vie, apprends à coder !"
+)
+
+
