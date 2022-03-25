@@ -7,6 +7,7 @@ ruby '2.7.4'
 gem 'rails', '~> 6.1.5'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
+gem 'cloudinary', '~> 1.16.0'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'simple_form', github: 'heartcombo/simple_form'
 # Use Puma as the app server
